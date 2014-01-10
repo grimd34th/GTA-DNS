@@ -1,0 +1,48 @@
+<version>
+	<pp>
+		<de>2</de>
+		<en>1</en>
+		<es>1</es>
+		<fr>2</fr>
+		<it>1</it>
+		<ja>2</ja>
+		<ko>1</ko>
+		<mx>1</mx>
+		<pl>1</pl>
+		<pt>1</pt>
+		<ru>1</ru>
+		<zh>1</zh>
+	</pp>
+
+	<tos>
+		<de>1</de>
+		<en>1</en>
+		<es>1</es>
+		<fr>2</fr>
+		<it>1</it>
+		<ja>2</ja>
+		<ko>2</ko>
+		<mx>1</mx>
+		<pl>1</pl>
+		<pt>1</pt>
+		<ru>1</ru>
+		<zh>2</zh>
+	</tos>
+
+	<eula>
+		<de>1</de>
+		<en>1</en>
+		<es>1</es>
+		<fr>1</fr>
+		<it>1</it>
+		<ja>1</ja>
+		<jp>1</jp>
+		<ko>1</ko>
+		<kr>1</kr>
+		<mx>1</mx>
+		<pl>1</pl>
+		<pt>1</pt>
+		<ru>1</ru>
+		<zh>1</zh>
+	</eula>
+</version>

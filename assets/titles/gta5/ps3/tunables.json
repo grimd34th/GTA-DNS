@@ -1,0 +1,225 @@
+{
+	"version": 1,
+	"poolSize": 2000,
+	"tunables": {
+		"BASE_GLOBALS": {
+
+			"MIN_FORCE_FLUSH_INTERVAL": [{"value": 60000}],
+
+			"CARMOD_SHOP_MULTIPLIER": [{"value": 1000.0}],
+			"CLOTHES_SHOP_MULTIPLIER": [{"value": 1000.0}],
+			"HAIRDO_SHOP_MULTIPLIER": [{"value": 1000.0}],
+			"TATTOO_SHOP_MULTIPLIER": [{"value": 1000.0}],
+			"WEAPONS_SHOP_MULTIPLIER": [{"value": 1000.0}],
+
+			"CARS_WEBSITE_MULTIPLIER": [{"value": 1000.0}],
+			"PLANES_WEBSITE_MULTIPLIER": [{"value": 1000.0}],
+			"HELIS_WEBSITE_MULTIPLIER": [{"value": 1000.0}],
+			"BOATS_WEBSITE_MULTIPLIER": [{"value": 1000.0}],
+			"BIKES_WEBSITE_MULTIPLIER": [{"value": 1000.0}],
+
+			"KILL_DEATH_CHEAT_THRESH": [{"value": 20000.0}],
+
+			"PROPERTY_MULTIPLIER": [{"value": 1.0}],
+
+			"MAX_HEALTH_MULTIPLIER": [{"value": 9999.0}],
+
+			"SHOP_SALES_ACTIVE": [{"value": false}],
+
+			"PRESENCE_PLAYERLOC_UPDATESEC": [{"value": 0}],
+			"PRESENCE_PLAYERLOC_TIMEOUTMS": [{"value": 360000000}],
+			"PRESENCE_PLAYERLOC_DIST2": [{"value": 25000000.0}], 
+
+			"TURN_SNOW_ON_OFF":[{"value":true,"start":138,"end":1388934000}],
+			"TOGGLE_XMAS_CONTENT":[{"value":true,"start":138,"end":1388966340}],
+			"TURN_SNAPMATIC_ON_OFF":[{"value":true,"start":138,"end":2525036400}], 
+
+			"APPEND_METRIC_VEHICLE_DRIVEN": [{"value": true}],
+
+			"MP_COUNTDOWN": [{"value": 1379376000}],
+			
+			"GAME_VERSION": [{"value": 1.0}],
+			"ELO_SEASON": [{"value": 1}],
+			"BOOKMARK_REFRESH": [{"value": 60000}],
+			"BANK_ACCOUNT_INTEREST_RATE": [{"value": 2.5}],
+			"BANK_ACCOUNT_INTEREST_CAP": [{"value": 1000000}],	
+			"PHONE_FRIEND_CHARGE": [{"value": 10}],
+			"PED_DROP_CASH_MULTIPLIER": [{"value": 1.0}],
+			
+			"SP_VEHICLE_LB_WRITE_ON_BOOT": [{"value": true}],
+			"SP_VEHICLE_LB_WRITE_ON_SAVE": [{"value": false}],
+			"SP_VEHICLE_LB_NO_WRITE": [{"value": false}],
+			"SP_VEHICLE_LB_WRITE_INTERVAL": [{"value": 3600000}],
+			
+			"FAKE_END_CONTEXT_NO_COMMA": [{"value": 0}]
+		},
+		"MP_GLOBAL": {
+			"XP_MULTIPLIER": [{"value": 1.0}],
+			"CASH_MULTIPLIER": [{"value": 1.0}],
+			"CHEAT_THRESHOLD": [{"value": 50000}],
+			"CHEAT_THRESHOLD_NOTCHEATER": [{"value": 45000}],
+			"CHEAT_RESET_MINUTES": [{"value": 1}],
+			"AMOUNT_TO_FORGIVE_BY": [{"value": 1.0}],
+			"CHEAT_TIME_MULTIPLYER": [{"value": 1.0}],
+			"PCL_VOICE_HATE_THRESHOLD": [{"value": 3200}],
+			"PCL_EXPLOITS_THRESHOLD": [{"value": 3200000000}],
+			"PCL_GAME_BUGS_THRESHOLD": [{"value": 320000}],
+
+			"TELEMETRY_PRESENCE_INVITE_ACTIVE": [{"value": false}],
+
+			"EXPLOIT_WARNING_THRESHOLD": [{"value": 6000}],
+
+			"KILL_DEATH_RATIO_THRESHOLD": [{"value": 25000.0}],
+
+			"GOOD_BOY_CASH_AWARD": [{"value": 2000}],
+
+			"AMOUNT_TO_FORGIVE_BY_HELPFUL": [{"value": 100.0}],
+			"AMOUNT_TO_FORGIVE_BY_FRIENDLY": [{"value": 200.0}],
+			"AMOUNT_TO_PUNISH_BY_GRIEFING": [{"value": 100.0}],
+			"AMOUNT_TO_PUNISH_BY_OFFENSIVE_LANGUAGE": [{"value": 0.0}],
+			"AMOUNT_TO_PUNISH_BY_OFFENSIVE_TAG": [{"value": 0.0}],
+			"AMOUNT_TO_PUNISH_BY_OFFENSIVE_UGC": [{"value": 0.0}],
+			"AMOUNT_TO_PUNISH_BY_VC_ANNOY": [{"value": 0.0}],
+
+			"MP_VEHICLE_LB_WRITE_ON_SAVE": [{"value": false}],
+			"MP_VEHICLE_LB_WRITE_ON_MATCHLBWRITE": [{"value": false}],
+			"MP_VEHICLE_LB_NO_WRITE": [{"value": false}],
+			"MP_VEHICLE_LB_WRITE_INTERVAL": [{"value": 1800000}],
+
+			"BADSPORT_THRESHOLD": [{"value": 50000}],
+			"BADSPORT_THRESHOLD_NOTCHEATER": [{"value": 45000}],
+			"BADSPORT_RESET_MINUTES": [{"value": 1}],
+			"AMOUNT_TO_FORGIVE_BADSPORT_BY": [{"value": 1.0}],
+			"BADSPORT_TIME_MULTIPLYER": [{"value": 0.0}],
+			
+			"SEND_TEL_ON_RESULT_TIMEOUT": [{"value": true}],
+			"RESULT_TIMEOUT_MS_IN_QUEUE": [{"value": 60000}],
+			"MAX_SAME_PLAYER_CRC_REQUESTS": [{"value": 3}],
+
+			"ENABLE_KICK": [{"value": true}],
+			"KICK_VOTES_NEEDED_RATIO": [{"value": 0.001}],
+			"KICK_TIMEOUT": [{"value": 600}],
+
+			"IDLEKICK_WARNING1": [{"value": 12000000}],
+			"IDLEKICK_WARNING2": [{"value": 30000000}],
+			"IDLEKICK_WARNING3": [{"value": 60000000}],
+			"IDLEKICK_KICK": [{"value": 900000000}],
+			
+			"SHOP_DISCOUNT_PERCENT": [{"value": 90}],
+			"SHOP_GOODBOY_DISCOUNT_PERCENT": [{"value": 5}],
+			
+			"BAD_PING_RTT": [{"value": 250}],
+
+			"HIGH_EARNER_VALUE": [{"value": 50000}],
+			"HIGH_EARNER_INTERVAL": [{"value": 3600000}],
+
+			"AUTOMUTE_PERCENT": [{"value": 75}],
+			"BADSPORTCHEAT_AUTOMUTE_PERCENT": [{"value": 50}],
+
+			"REPORT_SPAM_TIMEOUT": [{"value": 1200}],
+			"COMMEND_SPAM_TIMEOUT": [{"value": 1200}],
+			"REPORT_TIMEOUT": [{"value": 600}],
+			"COMMEND_TIMEOUT": [{"value": 600}],
+			"COMMENDREPORT_MAX_STRENGTH": [{"value": 16}],
+
+			"AI_HEALTH":                          [{"value": 1.0}],
+			"PASSIVE_DONATE":                     [{"value": 0}],
+			"LOW_APRT_UTIL":                      [{"value": 25}],
+			"MID_APRT_UTIL":                      [{"value": 50}],
+			"HIGH_APRT_UTIL":                     [{"value": 75}],
+			"IMP_EXP_EARN_CAP":                   [{"value": 40000}],
+			"CARMOD_CAR_VAL_SELL_CAP":            [{"value": 50000}],
+			"IMPROMPUT_RACE_CASH_AWARD_CAP":      [{"value": 10000}],
+			"IMPROMPTU_RACE_EXPENSES_MULTIPLIER": [{"value": 1.0}],
+			"IMPROMPTU_RACE_ENTRY_FEE_CAP":       [{"value": 10000}],
+			"IMPROMPTU_DM_ENTRY_MULTIPLIER":      [{"value": 1.0}],
+			"BOUNTY_THRESHOLD_MULTIPLIER":        [{"value": 1.0}],
+			"HOLD_UP_CASH_REWARD_CAP":            [{"value": 2500}],
+
+			"CRATE_DROP_WEAPON_0": [{"value": 1119849093}],
+			"CRATE_DROP_WEAPON_1": [{"value": -1312131151}],
+			"CRATE_DROP_WEAPON_2": [{"value": 205991906}],
+			"CRATE_DROP_WEAPON_3": [{"value": -494615257}],
+			"CRATE_DROP_WEAPON_4": [{"value": 741814745}],
+			"CRATE_DROP_WEAPON_5": [{"value": -1568386805}],
+			"CRATE_DROP_WEAPON_6": [{"value": -1357824103}],
+			"CRATE_DROP_WEAPON_7": [{"value": 2144741730}],
+			"CRATE_DROP_WEAPON_8": [{"value": 615608432}],
+			"CRATE_DROP_WEAPON_9": [{"value": -1813897027}],
+			
+			"CRATE_DROP_WEAPON_CLIPS_0": [{"value": 1}],
+			"CRATE_DROP_WEAPON_CLIPS_1": [{"value": 4}],
+			"CRATE_DROP_WEAPON_CLIPS_2": [{"value": 4}],
+			"CRATE_DROP_WEAPON_CLIPS_3": [{"value": 8}],
+			"CRATE_DROP_WEAPON_CLIPS_4": [{"value": 4}],
+			"CRATE_DROP_WEAPON_CLIPS_5": [{"value": 1}],
+			"CRATE_DROP_WEAPON_CLIPS_6": [{"value": 4}],
+			"CRATE_DROP_WEAPON_CLIPS_7": [{"value": 2}],
+			"CRATE_DROP_WEAPON_CLIPS_8": [{"value": 4}],
+			"CRATE_DROP_WEAPON_CLIPS_9": [{"value": 4}],
+			
+			"CRATE_DROP_SPECIAL_WEAPON": [{"value": 1119849093}],
+			"CRATE_DROP_SPEICAL_WEAPON_CLIPS": [{"value": 4}],
+			
+			"CRATE_DROP_CASH_MIN": [{"value": 1}],
+			"CRATE_DROP_CASH_MAX": [{"value": 5}],
+			"CRATE_DROP_CASH_TOTAL_MAX": [{"value": 4000}],
+			
+			"CRATE_DROP_SPECIAL_CASH": [{"value": 5000}],
+			
+			"CRATE_DROP_XP": [{"value": -1}],
+			"CRATE_DROP_SPECIAL_XP": [{"value": 5000}],
+			
+			"CRATE_DROP_LOCATION": [{"value": -1}],
+			
+			"CRATE_DROP_CLOTHING_COMPONENT_TYPE": [{"value": 1}],
+			"CRATE_DROP_CLOTHING_COMPONENT_NAME": [{"value": 99}],
+			
+			"CRATE_DROP_STANDARD_MIN_FREQ": [{"value": 8}],
+			"CRATE_DROP_STANDARD_MAX_FREQ": [{"value": 16}],
+			"CRATE_DROP_SPECIAL_FREQUENCY": [{"value": 10}],
+			
+			"MAX_HEALTH_MULTIPLIER": [{"value": 9999.0}],
+			
+			"SPENT_TO_GIVE_RATIO": [{"value": 40.0}],
+			"HIGH_EARNER_PERHOUR": [{"value": 10000}],
+			
+			"SCRIPT_MP_TIMEOUT": [{"value": 240000}],
+			"SOCIAL_CLUB_PRESENCE_UPDATE_TIME": [{"value": 60000}],
+			
+			"MAX_BET_LIMIT": [{"value": 5000.0}],		
+			"MIN_BET_LIMIT": [{"value": 5.0}],
+			"SHORT_ODDS_LIMIT": [{"value": 74.0}],	
+			"LONG_ODDS_LIMIT": [{"value": 2.95}],
+			"BOOKIE_RAKE": [{"value": 14.0}],
+			
+			"MAX_HEALTH_MULTIPLIER": [{"value": 9999.0}],
+			"MIN_HEALTH_MULTIPLIER": [{"value": 9999.0}],
+			"HEALTH_REGEN_RATE_MULTIPLIER": [{"value": 9999.0}],
+			"HEALTH_REGEN_MAX_MULTIPLIER": [{"value": 9999.0}],
+			"HEALTH_RESPAWN_MULTIPLIER": [{"value": 9999.0}],
+			"MAX_ARMOR_MULTIPLIER": [{"value": 9999.0}],
+			"MIN_ARMOR_MULTIPLIER": [{"value": 9999.0}],
+			"PSANDQS_HEALTH_REPLENISH_MULTIPLIER": [{"value": 1.0}],
+			"EGOCHASER_HEALTH_REPLENISH_MULTIPLIER": [{"value": 1.0}],
+			"METEORITE_HEALTH_REPLENISH_MULTIPLIER": [{"value": 1.0}],
+			"REDWOOD_HEALTH_DEPLETE_MULTIPLIER": [{"value": 1.0}],
+			"ORANGOTANG_HEALTH_REPLENISH_MULTIPLIER": [{"value": 1.0}],
+			"BOURGEOIX_HEALTH_REPLENISH_MULTIPLIER": [{"value": 1.0}],
+			
+			"MAX_CASH_GIFT_LIMIT":  [{"value": 5000.0}],
+			
+			"MATCHMAKING_POSITION_PLAYING_WEIGHT": [{"value": 1.5}],
+			"MATCHMAKING_SAME_PROPERTY_PENALTY": [{"value": 10.0}],
+			"MATCHMAKING_INCOMPATIBLE_CREATOR_PENALTY": [{"value": 200.0}],
+			
+			"MATCHMAKING_CONSIDER_CHEATERS": [{"value": false}],
+			"MATCHMAKING_CONSIDER_BADSPORTS": [{"value": false}],
+			
+			"FAKE_END_CONTEXT_NO_COMMA": [{"value": 0}]		
+		},
+		"MP_FM_DM":{},
+		"MP_FM_RACES":{},
+		"MP_FM_RACES_CAR":{}
+	}
+}
